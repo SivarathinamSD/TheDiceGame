@@ -1,0 +1,87 @@
+.mainMenu{
+  background-color: white;
+  text-align: center;
+  color: #20262E;
+  width: 100%;
+}
+
+.gameMenu{
+  background-color: #20262E;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.btn {
+  background: #34a2d9;
+  background-image: -webkit-linear-gradient(top, #34a2d9, #00fff7);
+  background-image: -moz-linear-gradient(top, #34a2d9, #00fff7);
+  background-image: -ms-linear-gradient(top, #34a2d9, #00fff7);
+  background-image: -o-linear-gradient(top, #34a2d9, #00fff7);
+  background-image: linear-gradient(to bottom, #34a2d9, #00fff7);
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 22px;
+  background: #20262e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #fa0060;
+  background-image: -webkit-linear-gradient(top, #fa0060, #c000fa);
+  background-image: -moz-linear-gradient(top, #fa0060, #c000fa);
+  background-image: -ms-linear-gradient(top, #fa0060, #c000fa);
+  background-image: -o-linear-gradient(top, #fa0060, #c000fa);
+  background-image: linear-gradient(to bottom, #fa0060, #c000fa);
+  text-decoration: none;
+}
+
+
+h1{
+  font-family: 'Slackey', cursive;
+  display: block;
+  font-size: 5rem;
+}
+.container{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #20262E;
+  color: white;
+  text-align: center;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+ 
+}
+.footerText{
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+img{
+  width: 80%;
+}
+
+.dice{
+  font-size: medium;
+  font-family: 'Slackey', cursive;
+}
+
+table{
+  text-align: center;
+}
