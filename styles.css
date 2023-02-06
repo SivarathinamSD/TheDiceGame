@@ -66,6 +66,7 @@ h1{
   font-family: 'Slackey', cursive;
   display: block;
   font-size: 5rem;
+  margin: 5% auto;
 }
 .container{
   margin: 50px;
@@ -80,6 +81,18 @@ h1{
   bottom: 0;
   width: 100%;
   background-color: #20262E;
+  color: white;
+  text-align: center;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+ 
+}
+.footer1{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding-top: 10px; 
@@ -116,7 +129,7 @@ table{
   padding: 10px 20px 10px 20px;
   border: solid #ffffff 2px;
   text-decoration: none;
-  margin-top: 10%;
+  margin-top: 5%;
   transition: background 0.15s;
 }
 
