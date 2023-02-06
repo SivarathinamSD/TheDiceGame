@@ -1,4 +1,6 @@
-function diceroll(){
+document.querySelector("button").addEventListener("click",diceRoll);
+
+function diceRoll(){
 
   dice1 = Math.floor(Math.random() * 6) + 1;
   dice2 = Math.floor(Math.random() * 6) + 1;
@@ -22,4 +24,4 @@ function diceroll(){
   image2.setAttribute("src" ,randomDiceImage2);
 }
 
-diceroll();
+
