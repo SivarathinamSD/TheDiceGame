@@ -18,7 +18,7 @@ function diceRoll(){
    document.querySelector("h1").innerHTML = "PLAYER 2 WINS";
  }
   else{
-   document.querySelector("h1").innerHTML = " DRAW!  &nbsp &nbsp";
+   document.querySelector("h1").innerHTML = " IT'S A DRAW!";
   }
   image1.setAttribute("src" ,randomDiceImage1);
   image2.setAttribute("src" ,randomDiceImage2);
